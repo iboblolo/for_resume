@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\account\\addnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\account\\addnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\views\\home\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\home\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|e:\\\u043A\u0443\u0440\u0441\u0430\u0447 2\\exam_asp\\exam_asp\\views\\test\\newtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\views\\test\\newtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\viewmodels\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\viewmodels\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_HNAFO4G/TestSystemNew/True/SqlTable/dbo.Question.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\exam_asp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF92B8DF-AA4B-4317-A22B-92A397CC89C0}|EXAM_ASP\\EXAM_ASP.csproj|solutionrelative:exam_asp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\ViewModels\\IndexViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\IndexViewModel.cs",
+              "RelativeToolTip": "EXAM_ASP\\ViewModels\\IndexViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:20:51.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:35:43.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:37:12.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddNewUser.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\AddNewUser.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Account\\AddNewUser.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\AddNewUser.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Account\\AddNewUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:25:51.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:25:50.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:24:56.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Program.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Program.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Program.cs",
+              "RelativeToolTip": "EXAM_ASP\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:26:55.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EXAM_ASP\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwDUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:09:55.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:37:16.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:37:10.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "EXAM_ASP\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:26:20.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewTest.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Test\\NewTest.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Test\\NewTest.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Test\\NewTest.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Test\\NewTest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:24:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Results.cshtml",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Views\\Home\\Results.cshtml",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Views\\Home\\Results.cshtml",
+              "RelativeToolTip": "EXAM_ASP\\Views\\Home\\Results.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:24:56.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\TestViewModel.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\ViewModels\\TestViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\TestViewModel.cs",
+              "RelativeToolTip": "EXAM_ASP\\ViewModels\\TestViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:24:56.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Controllers\\TestController.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\TestController.cs",
+              "RelativeToolTip": "EXAM_ASP\\Controllers\\TestController.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAcwAYBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:24:56.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Question [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_HNAFO4G/TestSystemNew/True/SqlTable/dbo.Question.sql",
+              "ToolTip": "dbo.Question [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2023-12-08T06:58:08.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EXAM_ASP\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:24:56.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "EXAM_ASP\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "E:\\\u041A\u0443\u0440\u0441\u0430\u0447 2\\EXAM_ASP\\EXAM_ASP\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "EXAM_ASP\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:24:56.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
