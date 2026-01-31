@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.RegistrationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="238" Width="227">
+    <Grid>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Log" HorizontalAlignment="Left" Margin="71,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Pass" HorizontalAlignment="Left" Margin="71,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Имя:" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+        <Label Content="Фамилия:" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Fname" HorizontalAlignment="Left" Margin="71,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Sname" HorizontalAlignment="Left" Margin="71,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="isTeach" HorizontalAlignment="Left" Margin="71,141,0,0" VerticalAlignment="Top" Width="120" Height="22">
+            <Label>Ученик</Label>
+            <Label>Учитель</Label>
+        </ComboBox>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="71,177,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+
+    </Grid>
+</Window>

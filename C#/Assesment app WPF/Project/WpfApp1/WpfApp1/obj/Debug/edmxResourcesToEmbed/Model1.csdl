@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AnswerType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AType" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="Self.FK_Questions_AnswerType" FromRole="AnswerType" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="CompletedTests">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TestCompID" Type="Int32" Nullable="false" />
+    <Property Name="UserCompID" Type="Int32" Nullable="false" />
+    <Property Name="Result" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Tests" Relationship="Self.FK_CompletedTests_Tests" FromRole="CompletedTests" ToRole="Tests" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_CompletedTests_Users" FromRole="CompletedTests" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnswerTypeID" Type="Int32" Nullable="false" />
+    <Property Name="QuestionText" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="AllAnswers" Type="String" MaxLength="1000" FixedLength="true" Unicode="true" />
+    <Property Name="AnswerLine" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AnswerType" Relationship="Self.FK_Questions_AnswerType" FromRole="Question" ToRole="AnswerType" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QustionsLine" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Tests" Relationship="Self.FK_Tests_Questions" FromRole="Questions" ToRole="Tests" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tests">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionsID" Type="Int32" Nullable="false" />
+    <Property Name="TestName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CompletedTests" Relationship="Self.FK_CompletedTests_Tests" FromRole="Tests" ToRole="CompletedTests" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Tests_Questions" FromRole="Tests" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="isTeacher" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CompletedTests" Relationship="Self.FK_CompletedTests_Users" FromRole="Users" ToRole="CompletedTests" />
+  </EntityType>
+  <Association Name="FK_Questions_AnswerType">
+    <End Role="AnswerType" Type="Self.AnswerType" Multiplicity="1" />
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AnswerType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="AnswerTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CompletedTests_Tests">
+    <End Role="Tests" Type="Self.Tests" Multiplicity="1" />
+    <End Role="CompletedTests" Type="Self.CompletedTests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tests">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CompletedTests">
+        <PropertyRef Name="TestCompID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CompletedTests_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="CompletedTests" Type="Self.CompletedTests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CompletedTests">
+        <PropertyRef Name="UserCompID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tests_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="Tests" Type="Self.Tests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tests">
+        <PropertyRef Name="QuestionsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestSystemEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AnswerType" EntityType="Self.AnswerType" />
+    <EntitySet Name="CompletedTests" EntityType="Self.CompletedTests" />
+    <EntitySet Name="Question" EntityType="Self.Question" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tests" EntityType="Self.Tests" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Questions_AnswerType" Association="Self.FK_Questions_AnswerType">
+      <End Role="AnswerType" EntitySet="AnswerType" />
+      <End Role="Question" EntitySet="Question" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CompletedTests_Tests" Association="Self.FK_CompletedTests_Tests">
+      <End Role="Tests" EntitySet="Tests" />
+      <End Role="CompletedTests" EntitySet="CompletedTests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CompletedTests_Users" Association="Self.FK_CompletedTests_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CompletedTests" EntitySet="CompletedTests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tests_Questions" Association="Self.FK_Tests_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Tests" EntitySet="Tests" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
